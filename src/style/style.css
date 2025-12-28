@@ -135,3 +135,13 @@ body {
     border: 2px solid #1e1e1e;
 }
 
+.navbar-mejorado {
+    position: fixed; /* O sticky: top: 0; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-bottom: 2px solid #8ab4f8;
+    z-index: 1000; /* Asegura que esté por encima de todo */
+}

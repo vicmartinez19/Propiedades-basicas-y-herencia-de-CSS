@@ -59,3 +59,34 @@ body {
 .btn-perfil:hover {
     background-color: rgba(255, 255, 255, 0.2); 
 }
+
+/* --- ESTILOS TARJETA GOOGLE PLAY --- */
+.card-google .instruccion {
+    color: #9aa0a6;
+    margin: 10px 0 20px;
+}
+
+.estrella {
+    display: inline-block; 
+    font-size: 30px;
+    color: #9aa0a6;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.estrella:hover {
+    color: #8ab4f8;
+}
+
+.btn-google {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    background-color: transparent;
+    color: #8ab4f8;
+    border: 1px solid #5f6368;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+/* Google fonts*/
+.gideon-roman-regular {
+  font-family: "Gideon Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body {
     background-color: #121212;
     color: white;
@@ -53,7 +61,6 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 25px;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 .btn-perfil:hover {
@@ -106,4 +113,35 @@ body {
     border: 2px solid rgba(255, 255, 255, 0.2); 
     border-radius: 50%;
     overflow: hidden; 
+}
+
+.avatar-container {
+    position: relative; /* El contenedor padre debe ser relative */
+    width: 90px;
+    margin: 0 auto 20px;
+}
+
+.badge-verificado {
+    position: absolute; /* Se posiciona respecto al contenedor */
+    bottom: 5px;
+    right: 5px;
+    background-color: #0062ff;
+    color: #121212;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #1e1e1e;
+}
+
+.navbar-mejorado {
+    position: fixed; /* O sticky: top: 0; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-bottom: 2px solid #8ab4f8;
+    z-index: 1000; /* Asegura que esté por encima de todo */
 }

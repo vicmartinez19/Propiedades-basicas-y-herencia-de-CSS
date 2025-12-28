@@ -90,3 +90,20 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* La imagen que está dentro de .avatar */
+.card-perfil .avatar img {
+    width: 100%; 
+    height: 100%;
+        object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-perfil .avatar {
+    width: 90px; 
+    height: 90px;
+    margin: 0 auto 20px; 
+    border: 2px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 50%;
+    overflow: hidden; 
+}

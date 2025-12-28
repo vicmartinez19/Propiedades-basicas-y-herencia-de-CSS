@@ -12,3 +12,14 @@ body {
     padding: 50px;
     text-align: center;
 }
+/* Propiedades de la Caja */
+.card {
+    display: inline-block;
+    width: 320px;
+        background-color: #1e1e1e;
+    margin: 20px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    vertical-align: top;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
